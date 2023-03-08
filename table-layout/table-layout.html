@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Caitlin Romprey">
+        <meta name="description" content="This is MCOM-3310 third HTML assignment. Covering Table layout.">
+        <title>HTML Table Layout</title>
+    </head>
+
+    <body bgcolor="F0F8FF">
+        <table border="1">
+            <tr bgcolor="ADD8E6"> <!--First Row with the header-->
+                <td colspan="2">
+                    <h1>Webpage with a Table Layout</h1>
+                </td>
+            </tr>
+            <tr valign="top"> <!--Second row with menu and main content-->
+                <td bgcolor="CAE9F5">
+                    <strong>Main Menu</strong><br>
+                    <br><br>
+                    <a href="https://www.techtarget.com/whatis/definition/absolute-link">Absolute Link</a>
+                    <br><br>
+                    <a href="index.html">Relative Link</a><br>
+                    <br>
+                </td>
+                <td bgcolor="a6d5d9">
+                    <h3>Absolute vs Relative Links</h3>
+                    <p>An <em>absolute link</em> is a hyperlink that refers to and maps to outside paths to an actual working URL. An absolute links to another website.
+                    Ex: (href="https:ualr.edu")</p>
+                    <p>A <em>relative link</em> is a hyperlink that maps to internal paths. It will link to a file inside the website.
+                    Ex: (href="../assets/css/style.css")</p>
+                    <p>It is important to understand the difference between relative and absolute links because...</p>
+                </td>
+            </tr>
+            <!--This is the area for external content using iframe-->
+            <tr>
+                <td colspan="2">
+                    <iframe src="https://www.codecademy.com/catalog" height="480" width="1160" title="External Page Frame"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <iframe width="575" height="480" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="575" height="480" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285170710&color=%232d91f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/npr" title="NPR" target="_blank" style="color: #cccccc; text-decoration: none;">NPR</a> · <a href="https://soundcloud.com/npr/first-known-recording-of-computer-generated-music" title="First Known Recording Of Computer Generated Music" target="_blank" style="color: #cccccc; text-decoration: none;">First Known Recording Of Computer Generated Music</a></div>
+                </td>
+            </tr>
+            
+            <tr bgcolor="87CEEB"> <!--Fourth row with the footer-->
+                <td colspan="2">&copy; Caitlin Romprey 2023 | cromprey@ualr.edu</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
